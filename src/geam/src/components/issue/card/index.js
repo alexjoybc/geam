@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Issue({ issue: { id, title, state } }) {
+export default function IssueCard({ issue: { id, title, state } }) {
   return (
     <div>
       {id} - {title} - {state}

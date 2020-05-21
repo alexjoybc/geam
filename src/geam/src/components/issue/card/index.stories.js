@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Issue from '.';
+import IssueCard from '.';
 
 export default {
-  component: Issue,
-  title: 'Issue',
+  component: IssueCard,
+  title: 'Issue Card',
   // Our exports that end in "Data" are not stories.
   excludeStories: /.*Data$/,
 };
@@ -16,4 +16,4 @@ export const issueData = {
 };
 
 
-export const Default = () => <Issue issue={{ ...issueData }} />;
+export const Default = () => <IssueCard issue={{ ...issueData }} />;
